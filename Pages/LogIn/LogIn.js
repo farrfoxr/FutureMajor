@@ -41,7 +41,7 @@ function handleSubmit(event) {
         submitButton.disabled = true;
         
         setTimeout(() => {
-            window.location.href = 'index.html'; // Redirect to home page
+            window.location.href = 'Home.html'; // Redirect to home page
         }, 1000); // 1 second delay
     }
 }
