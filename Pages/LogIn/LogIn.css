@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: url('../Assets/book-bg.png') no-repeat center center fixed;
+    background: url('https://farrfoxr.github.io/FutureMajor/Assets/book-bg.png') no-repeat center center fixed;
     backdrop-filter: blur(1px);
     background-size: cover;
     height: 100vh;
