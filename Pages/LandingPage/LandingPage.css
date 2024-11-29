@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: url('../Assets/book-bg.png') no-repeat center center fixed;
+    background: url('https://farrfoxr.github.io/FutureMajor/Assets/book-bg.png') no-repeat center center fixed;
     background-size: cover;
     user-select: none;
 }
