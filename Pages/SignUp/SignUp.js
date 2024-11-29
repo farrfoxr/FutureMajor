@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // });
 
             console.log('Form Data:', formData);
-            window.location.href = 'index.html'; // Replace with your home page URL
+            window.location.href = 'Home.html'; // Replace with your home page URL
         } catch (error) {
             console.error('Error:', error);
         }
