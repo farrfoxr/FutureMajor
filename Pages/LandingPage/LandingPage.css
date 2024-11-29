@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url('../Assets/book-bg.png') no-repeat center center fixed;
+    background-size: cover;
+    user-select: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.brand-title {
+    color: white;
+    font: 400 1.2rem 'Newsreader', sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #8B4513;
+    transform: scale(1.05);
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-filled {
+    background-color: #8B4513;
+    border: none;
+    color: white;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+}
+
+.hero-title {
+    font: 4rem 'Newsreader', sans-serif;
+    max-width: 800px;
+}
+
+h3 {
+    font: 1.5rem 'Montserrat';
+    margin-bottom: 30px;
+}
+
+.btn-hero {
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 0;
+    backdrop-filter: blur(2px);
+    color: white;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}

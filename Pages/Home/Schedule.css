@@ -1,0 +1,51 @@
+.schedule-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.schedule-left,
+.schedule-right {
+    width: 700px;
+    height: 400px;
+}
+
+.schedule-left {
+    background: url('../Assets/office-background.jpg');
+    background-size: cover;
+}
+
+.schedule-right {
+    margin: 0;
+    padding: 0;
+}
+
+.events-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 40px;
+}
+
+.event-item {
+    border-left: 4px solid #8B4513;
+    padding-left: 20px;
+}
+
+.event-date {
+    color: #8B4513;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.event-divider {
+    border-top: 2px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.event-description {
+    font-size: 16px;
+    font-weight: bold;
+}

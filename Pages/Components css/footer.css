@@ -1,0 +1,86 @@
+.footer {
+    background-color: #F5F5F5;
+    color: #333333;
+    padding: 60px 0;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    top: 450px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 20px;
+}
+
+/* Combined left section styles */
+.footer-left, .footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-logo {
+    width: 120px;
+    height: auto;
+}
+
+/* Combined center section styles */
+.footer-center {
+    display: flex;
+    gap: 60px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Combined text styles */
+.footer h3 {
+    color: #8B614A;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.copyright {
+    color: #888888;
+    font-size: 14px;
+}
+
+/* Combined link styles */
+.footer-link {
+    color: #666666;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #8B614A;
+    text-shadow: 0 0 10px rgba(139, 97, 74, 0.3);
+}
+
+/* Combined social icon styles */
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    color: #4a4a4a;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #8B4513; /* matches the site's brown color */
+}
+
+.location {
+    margin-top: 20px;
+}

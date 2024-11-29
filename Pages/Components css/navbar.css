@@ -1,0 +1,78 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #d2cdc7;
+    backdrop-filter: blur(2px);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 30px;
+}
+
+.brand-title {
+    color: rgb(70, 58, 52);
+    font: 400 1.2rem 'Newsreader', sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    padding: 0 20px 0 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(70, 58, 52);
+    font-weight: bold;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+.nav-link:hover {
+    color: #86654b;
+    transform: scale(1.05);
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-filled {
+    background-color: #8B4513;
+    border: none;
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
